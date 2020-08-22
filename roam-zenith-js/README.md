@@ -6,6 +6,10 @@
 4. Insert code from this repository
 5. Go to [[roam/css]] page and insert the following css code:
    ```
+    /* don't limit the block width */
+    .rm-block-text {
+        max-width: none!important;
+    }
     #roam-right-sidebar-content > * > div:last-child:not(:first-child) {
         width: var(--page-side-width);
     } 
