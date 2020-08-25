@@ -13,8 +13,8 @@ For usage, please read the README.md
 //---------Control Center------------
 var mainPageMouseResize = true;
 var sidePageMouseResize = true;
-var mainPageSliderResize = true;
-var sidePageSliderResize = true;
+var mainPageSliderResize = false;
+var sidePageSliderResize = false;
 var mainWidth = "800px";
 var sideWidth = "600px";
 var reorderPages = true;
