@@ -17,6 +17,10 @@
     .highlight{
         background-color: #f9c7c8 !important;
     }
+     .selected {
+     background-color: #FFEB3B !important;
+     z-index: 1 !important;
+    }
    ```
 6. Refresh Page. Enjoy.
 7. If you want to turn on/off features, change the variables inside `Control Center`
