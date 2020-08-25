@@ -18,7 +18,7 @@ var sidePageSliderResize = false;
 var mainWidth = "800px";
 var sideWidth = "600px";
 var reorderPages = true;
-var MultiSelectResize = false; //this option is conditional on reorderPages being true
+var multiSelectResize = false; //this option is conditional on reorderPages being true
 var multiDragKey = "CTRL"; // this option is conditional on MultSelectResize being true
 
 //--------Code Initialization--------
@@ -212,7 +212,7 @@ function sidePageResize() {
           }
           if (reorderPages) {
             Sortable.create(el, {
-              multiDrag: MultiSelectResize ? true : false,
+              multiDrag: multiSelectResize ? true : false,
               selectedClass: "selected",
               multiDragKey,
               direction: "horizontal",
