@@ -24,19 +24,18 @@
    ```
 6. Refresh Page. Enjoy.
 7. If you want to turn on/off features, change the variables inside `Control Center`
-
-```
-//---------Control Center------------
-var mainPageMouseResize = true;
-var sidePageMouseResize = true;
-var mainPageSliderResize = true;
-var sidePageSliderResize = true;
-var mainWidth = "800px";
-var sideWidth = "600px";
-var reorderPages = true;
-var MultiSelectResize = false; //this option is conditional on reorderPages being true
-var multiDragKey = "CTRL"; // this option is conditional on MultSelectResize being true
-```
+   ```
+   //---------Control Center------------
+   var mainPageMouseResize = true;
+   var sidePageMouseResize = true;
+   var mainPageSliderResize = true;
+   var sidePageSliderResize = true;
+   var mainWidth = "800px";
+   var sideWidth = "600px";
+   var reorderPages = true;
+   var MultiSelectResize = false; //this option is conditional on reorderPages being true
+   var multiDragKey = "CTRL"; // this option is conditional on MultSelectResize being true
+   ```
 
 # Features:
 * __Main Page Resize__: 
